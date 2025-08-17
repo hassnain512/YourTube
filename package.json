@@ -1,0 +1,33 @@
+{
+  "name": "yourtube",
+  "version": "1.0.0",
+  "description": "This is a social media plateform for videos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules ./src/index.js"
+  },
+  "keywords": [
+    "BACKEND",
+    "FRONTEND",
+    "REACT",
+    "NODE",
+    "EXPRESS",
+    "MONGO",
+    "MERN",
+    "FULL-STACK"
+  ],
+  "author": "Hassnain Raza Maitla",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
