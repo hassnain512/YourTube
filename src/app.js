@@ -9,6 +9,10 @@ app.use(
   })
 );
 
+app.listen(process.env.PORT, () => {
+  console.log(`YOUR SERVER IS RUNNING AT PORT NUMBER ${process.env.PORT}`);
+});
+
 //for form data
 app.use(
   express.json({
